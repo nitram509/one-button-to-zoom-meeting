@@ -1,6 +1,12 @@
 
 # One Button To Zoom-Meeting
 
+This little one-button-solution is connected to a Mac-Mini
+and initiates a [Zoom](http://zoom.us) meeting automatically, once pressed.
+
+![cicuit diagram](/pictures/button_box_assembled.jpg?raw=true)
+
+
 ##### License
 
 [![License](https://img.shields.io/:license-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
