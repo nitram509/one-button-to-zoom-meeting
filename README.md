@@ -4,7 +4,7 @@
 This little one-button-solution is connected to a Mac-Mini
 and initiates a [Zoom](http://zoom.us) meeting automatically, once pressed.
 There's also a LED inside, which gives visual feedback
-and of course - like any other DIY project there needs to be a LED soldered ;)
+and of course – like any other DIY project – there needs to be a LED soldered ;)
 
 ![cicuit diagram](/pictures/button_box_assembled.jpg?raw=true)
 
