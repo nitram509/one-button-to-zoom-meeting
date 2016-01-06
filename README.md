@@ -6,13 +6,17 @@
 [![License](https://img.shields.io/:license-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 
-### Software requirements
+### Software & How to build
 
-* Designed for [Digispark](http://digistump.com/products/1) ATTiny85 boards
-* Compiled with Arduino IDE 1.6.5
+* Use Arduino IDE 1.6.5 or newer
+* Follow the [Digispark's tutorial](http://digistump.com/wiki/digispark/tutorials/connecting)
+* Compile and upload this code from within your Arduino IDE
 
 
 ### Hardware
+
+Designed to be used with [Digispark](http://digistump.com/products/1) ATTiny85 boards.
+
 
 #### Circuit diagram
 
