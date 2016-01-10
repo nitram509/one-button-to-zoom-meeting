@@ -78,7 +78,7 @@ To trigger the script by a global hotkey (a.k.a. green button),
 you need to copy the script inside Automator's service script.
 Afterwards you can assign a key to this service script.
 
-1. Start Automator
+##### 1. Start Automator
    * create a new workflow document of type 'Service'
    * set 'Service receives selected' to 'no input'
    * add 'Run JavaScript' from the Library into your workflow document
@@ -89,7 +89,7 @@ Afterwards you can assign a key to this service script.
 
 ![automator service javascript](/pictures/automator_service_javascript.png?raw=true)
 
-!2. Start Keyboard (from System Preferences)
+##### 2. Start Keyboard (from System Preferences)
    * select 'Shortcuts'
    * select 'Services'
    * search for General -> one-button-to-zoom
