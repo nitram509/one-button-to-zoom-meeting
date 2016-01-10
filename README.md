@@ -89,7 +89,7 @@ Afterwards you can assign a key to this service script.
 
 ![automator service javascript](/pictures/automator_service_javascript.png?raw=true)
 
-2. Start Keyboard (from System Preferences)
+!2. Start Keyboard (from System Preferences)
    * select 'Shortcuts'
    * select 'Services'
    * search for General -> one-button-to-zoom
