@@ -79,21 +79,21 @@ you need to copy the script inside Automator's service script.
 Afterwards you can assign a key to this service script.
 
 1. Start Automator
-   1. create a new workflow document of type 'Service'
-   2. set 'Service receives selected' to 'no input'
-   3. add 'Run JavaScript' from the Library into your workflow document
-   4. copy all code from file ```start_meeting_and_notify_users.js``` to clipboard
-   5. replace '// Your script goes here' inside workflow script and paste the code from clipboard
-   6. remove the first line '#!/usr/bin/env osascript -l JavaScript'
-   7. save workflow document as 'one-button-to-zoom' into your user's folder ~/Library/Services
+   * create a new workflow document of type 'Service'
+   * set 'Service receives selected' to 'no input'
+   * add 'Run JavaScript' from the Library into your workflow document
+   * copy all code from file ```start_meeting_and_notify_users.js``` to clipboard
+   * replace '// Your script goes here' inside workflow script and paste the code from clipboard
+   * remove the first line '#!/usr/bin/env osascript -l JavaScript'
+   * save workflow document as 'one-button-to-zoom' into your user's folder ~/Library/Services
 
 ![automator service javascript](/pictures/automator_service_javascript.png?raw=true)
 
 2. Start Keyboard (from System Preferences)
-   1. select 'Shortcuts'
-   2. select 'Services'
-   3. search for General -> one-button-to-zoom
-   4. assign a new key == the green button one ;)
+   * select 'Shortcuts'
+   * select 'Services'
+   * search for General -> one-button-to-zoom
+   * assign a new key == the green button one ;)
 
 ![keyboard bindings for service script](/pictures/keyboard_bindings_for_service_script?raw=true)
 
