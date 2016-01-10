@@ -95,7 +95,7 @@ Afterwards you can assign a key to this service script.
    * search for General -> one-button-to-zoom
    * assign a new key == the green button one ;)
 
-![keyboard bindings for service script](/pictures/keyboard_bindings_for_service_script?raw=true)
+![keyboard bindings for service script](/pictures/keyboard_bindings_for_service_script.png?raw=true)
 
 
 ### Hardware
