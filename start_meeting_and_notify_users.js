@@ -60,7 +60,7 @@ function killRunningZoomApp () {
 }
 
 function startMeetingLocally (meetingId, userId, userName) {
-    // "zoommtg://zoom.us/start?confno=622266174&zc=0&uname=foobar&uid=SmX7qrWcQyu3QhjPS-D1jg"
+  // "zoommtg://zoom.us/start?confno=622266174&zc=0&uname=foobar&uid=SmX7qrWcQyu3QhjPS-D1jg"
   var command = 'open  "zoommtg://zoom.us/start?'
   command += 'confno=' + encodeURI(meetingId)
   command += '&uid=' + encodeURI(userId)
