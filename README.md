@@ -85,6 +85,7 @@ Afterwards you can assign a key to this service script.
    * copy all code from file ```start_meeting_and_notify_users.js``` to clipboard
    * replace '// Your script goes here' inside workflow script and paste the code from clipboard
    * remove the first line '#!/usr/bin/env osascript -l JavaScript'
+   * fill in your Zoom API key and API secret
    * save workflow document as 'one-button-to-zoom' into your user's folder ~/Library/Services
 
 ![automator service javascript](/pictures/automator_service_javascript.png?raw=true)
