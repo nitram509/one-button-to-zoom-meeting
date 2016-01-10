@@ -2,7 +2,7 @@
 
 //
 // ***** configure your settings here *****
-var zoomApiKey = '<YPUR API KEY HERE>'
+var zoomApiKey = '<YOUR API KEY HERE>'
 var zoomApiSecret = '<YOUR API SECRET HERE>'
 var meetingTopicPrefix = 'Instant Meeting'
 // *****************DONE*******************
