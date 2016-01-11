@@ -18,30 +18,50 @@
 
 const int buttonPin = PB2;
 const int ledPin = PB1;
-int buttonState = LOW; 
-char letter = 'a';
+const long BUTTON_ACTIVE_INTERVAL_MILLIS = 3000;
+
+unsigned long previousMillis = 0;
+bool isButtonActive = false;
+
+
+void ledOn() {
+  digitalWrite(ledPin, LOW);
+}
+
+void ledOff() {
+  digitalWrite(ledPin, HIGH);
+}
 
 void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(buttonPin, INPUT);
+  ledOff();
 }
 
 void loop() {
+ 
   // this is generally not necessary but with some older systems it seems to
   // prevent missing the first character after a delay:
   DigiKeyboard.sendKeyStroke(0);
   
-  buttonState = digitalRead(buttonPin);
-  if (HIGH == buttonState) {
-    DigiKeyboard.println(letter);
-    digitalWrite(ledPin, LOW);
+  unsigned long currentMillis = millis();
+  if (isButtonActive) {
+    if (currentMillis - previousMillis >= BUTTON_ACTIVE_INTERVAL_MILLIS) {
+      ledOff();
+      isButtonActive = false;
+    }    
   } else {
-    digitalWrite(ledPin, HIGH);
+    previousMillis = currentMillis;
+    if (HIGH == digitalRead(buttonPin)) {
+      isButtonActive = true;
+      DigiKeyboard.sendKeyStroke(KEY_F10, MOD_CONTROL_LEFT | MOD_SHIFT_LEFT);
+      ledOn();
+    }
   }
   
   // It's better to use DigiKeyboard.delay() over the regular Arduino delay()
   // if doing keyboard stuff because it keeps talking to the computer to make
   // sure the computer knows the keyboard is alive and connected
-  DigiKeyboard.delay(50);
+  DigiKeyboard.delay(100);
 }
 
