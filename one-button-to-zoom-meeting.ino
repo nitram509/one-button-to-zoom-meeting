@@ -18,7 +18,7 @@
 
 const int buttonPin = PB2;
 const int ledPin = PB1;
-const long BUTTON_ACTIVE_INTERVAL_MILLIS = 3000;
+const long BUTTON_ACTIVE_INTERVAL_MILLIS = 5000;
 
 unsigned long previousMillis = 0;
 bool isButtonActive = false;
