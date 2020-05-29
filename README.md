@@ -120,3 +120,9 @@ Designed to be used with [Digispark](http://digistump.com/products/1) ATTiny85 b
 * 1x Arcade Button, 52mm, incl. 1 LED
 * 1x Resistor 220Ohm
 * 1x Resistor 10kOhm
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/nitram509/one-button-to-zoom-meeting.svg)](https://starchart.cc/nitram509/one-button-to-zoom-meeting)
+ 
